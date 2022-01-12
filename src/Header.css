@@ -1,0 +1,42 @@
+.header {
+    background-color: black;
+    position: relative;
+    top: 0;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-left > img {
+    height: 60px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-left > h3 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right > a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.header-right > a:hover {
+    color: #1ed760;
+}

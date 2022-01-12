@@ -1,0 +1,193 @@
+.backgroundone {
+    background-color: #f46ebe;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #202F72;
+}
+
+.hash {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+
+.buttons > button {
+    margin-right: 3%;
+    border: none;
+    background-color: black;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons > button > img {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.contentOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    padding: 0 15%;
+}
+
+.contentOne > h1 {
+    font-size: 4.2vw;
+    font-weight: 700;
+}
+
+.contentOne > h3 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.contentOne > a {
+    color: #204199;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.backgroundtwo {
+    background-color: #2941ab;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1ED760;
+}
+
+.contentTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75%;
+    padding: 0 15%;
+}
+
+.contentTwo > h1 {
+    font-size: 4.2vw;
+    font-weight: 700;
+}
+
+.contentTwo > h3 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.contentTwo > button {
+    border: none;
+    background-color: #1ED760;
+    color: #2941ab;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    width: 35%;
+    padding: 2%;
+    height: 45px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contentTwo > button:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    height: 400px;
+    background-color: black;
+    color: white;
+    padding: 65px 15%;
+}
+
+.backgroundthree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo > img {
+    height: 60px;
+}
+
+.footer-logo {
+    display: flex;
+    align-content: flex-start;
+    cursor: pointer;
+}
+
+.footer-logo > h3 {
+    font-size: 27px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.company, .communities, .useful {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.company > span, .communities > span, .useful > span {
+    text-transform: uppercase;
+    color: gray;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.company > li, .communities > li, .useful > li {
+    list-style: none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.company > li:hover, .communities > li:hover, .useful > li:hover, .social-links > button:hover, .location > span:hover, .about > span:hover, .last-line > span:hover {
+    color: #1ed760;
+}
+
+.social-links {
+    padding: 30px 0;
+}
+
+.social-links > button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 100px;
+    background-color: #252525;
+    color: white;
+    padding: 0;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.footer-last {
+    padding-top: 70px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.location {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.last-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about > span {
+    padding-right: 20px;
+}
+
+.about > span, .last-line > span, .location > span {
+    cursor: pointer;
+}
