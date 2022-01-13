@@ -41,25 +41,27 @@ function Landing() {
                         <img src='https://www.shareicon.net/data/2048x2048/2016/06/21/607432_spotify_4096x4096.png' alt=''/>
                         <h3>Spotify</h3>
                     </div>
-                    <div className="company">
-                        <span>Company</span>
-                        <li>About</li>
-                        <li>Jobs</li>
-                        <li>For the Record</li>
-                    </div>
-                    <div className="communities">
-                        <span>Communities</span>
-                        <li>For Artists</li>
-                        <li>Developers</li>
-                        <li>Advertising</li>
-                        <li>Investors</li>
-                        <li>Vendors</li>
-                    </div>
-                    <div className="useful">
-                        <span>Useful Links</span>
-                        <li>Support</li>
-                        <li>Web Player</li>
-                        <li>Free Mobile App</li>
+                    <div className="links">
+                        <div className="company">
+                            <span>Company</span>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Record</li>
+                        </div>
+                        <div className="communities">
+                            <span>Communities</span>
+                            <li>For Artists</li>
+                            <li>Developers</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </div>
+                        <div className="useful">
+                            <span>Useful Links</span>
+                            <li>Support</li>
+                            <li>Web Player</li>
+                            <li>Free Mobile App</li>
+                        </div>
                     </div>
                     <div className="social-links">
                         <button>

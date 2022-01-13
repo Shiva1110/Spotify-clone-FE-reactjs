@@ -1,5 +1,5 @@
 .signup {
-    width: 460px;
+    max-width: 480px;
     margin: 0 auto;
     padding-bottom: 150px;
 }
@@ -76,9 +76,10 @@
 
 .signup > form > input {
     width: 100%;
+    box-sizing: border-box;
     padding: 10px;
     margin-top: 8px;
-    height: 30px;
+    height: 50px;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 17px;
@@ -91,16 +92,17 @@
 }
 
 .dob {
-    width: 105%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
 }
 
 .dob > input {
-    width: 20%;
+    width: 23%;
     padding: 10px;
-    height: 30px;
+    height: 50px;
+    box-sizing: border-box;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 17px;
@@ -109,8 +111,8 @@
 }
 
 .dob > select {
-    width: 40%;
-    height: 52px;
+    width: 43%;
+    height: 50px;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 17px;
@@ -193,4 +195,14 @@
     font-weight: 800;
     cursor: pointer;
     margin-top: 5%;
+}
+
+@media (max-width: 500px) {
+    .signup {
+        padding: 0 20px;
+        padding-bottom: 130px;
+    }
+    .logo-info > h2 {
+        text-align: center;
+    }
 }
