@@ -12,7 +12,7 @@ function Signup() {
         const initialValues = Object.values(initialValue);
         const errors = Object.values(formErrors);
         if(!values.every((val, i) => val === initialValues[i]) && errors.every(val => val === '')) {
-            alert('No Errors');
+            alert('Submitted successfully!!!\n\n'+JSON.stringify(formValues));
         } else {
             alert('Form is having Errors');
         }
