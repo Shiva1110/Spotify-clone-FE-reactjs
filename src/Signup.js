@@ -14,7 +14,7 @@ function Signup() {
         if(!values.every((val, i) => val === initialValues[i]) && errors.every(val => val === '')) {
             alert('No Errors');
         } else {
-            alert('has Errors');
+            alert('Form is having Errors');
         }
     }
 
