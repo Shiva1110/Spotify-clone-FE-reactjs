@@ -13,7 +13,7 @@ function Landing() {
                 <div className="contentOne">
                     <p className='hash'>#spotifywrapped</p>
                     <h1>2021 Wrapped is ready.</h1>
-                    <h3>But it’s only available in the Spotify app. Download it now to discover more.</h3>
+                    <h3>But it's only available in the Spotify app. Download it now to discover more.</h3>
                     <div className="buttons">
                         <button>
                             <img src="/appstore.jpg" alt="" />
