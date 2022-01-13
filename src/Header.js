@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import './Header.css';
-import IconButton from '@mui/material/IconButton';
 
 function Header() {
 
