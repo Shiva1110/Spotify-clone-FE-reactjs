@@ -12,6 +12,10 @@ function Header() {
     }
 
     useEffect(() => {
+        return () => document.body.style.overflow = "visible";
+    }, [])
+
+    useEffect(() => {
         if(menuClicked) {
             document.body.style.overflow = "hidden";
         } else {

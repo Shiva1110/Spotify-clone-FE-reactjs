@@ -110,7 +110,7 @@
 }
 
 .footer {
-    height: fit-content;
+    height: 400px;
     background-color: black;
     color: white;
     padding: 65px 15%;
@@ -229,7 +229,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .backgroundthree {
         display: flex;
         flex-direction: column;
@@ -239,9 +239,11 @@
     }
     .footer {
         height: fit-content;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .contentOne, .contentTwo {
-        width: 50%;
+        width: 60%;
     }
     .social-links {
         padding-bottom: 0;
@@ -275,6 +277,45 @@
         background-color: white;
     }
     .contentOne, .contentTwo {
-        width: 60%;
+        width: 70%;
+    }
+    .footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 450px) {
+    .contentOne, .contentTwo {
+        width: 80%;
+        height: 75%;
+    }
+    .links {
+        flex-direction: column;
+    }
+    .communities, .company, .useful {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .contentOne, .contentTwo {
+        width: 90%;
+        height: 80%;
+    }
+    .contentOne > h1, .contentTwo > h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        height: 220px;
+        justify-content: space-between;
+        padding: 0;
+        padding-top: 40px;
+    }
+    .footer-last{
+        padding-top: 40px;
     }
 }
